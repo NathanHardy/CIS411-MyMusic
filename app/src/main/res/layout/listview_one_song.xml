@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    // This will display the song title
+    <TextView
+        android:id="@+id/songTitleTextView"
+        android:textSize="16dp"
+        android:padding="4dp"
+        android:text="song"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    // This will contain the other strings related to the song, side-by-side
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        // This will display the album title
+        <TextView
+            android:id="@+id/albumTitleTextView"
+            android:textSize="8dp"
+            android:padding="4dp"
+            android:text="albumTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        // This will display the song publish date
+        <TextView
+            android:id="@+id/publishDateTextView"
+            android:textSize="8dp"
+            android:padding="4dp"
+            android:text="publishDate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        // This will display the song last updated date
+        <TextView
+            android:id="@+id/lastUpdatedTextView"
+            android:textSize="8dp"
+            android:padding="4dp"
+            android:text="lastUpdated"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        // This will display the associated Youtube ID
+        <TextView
+            android:id="@+id/youtubeIDTextView"
+            android:textSize="8dp"
+            android:padding="4dp"
+            android:text="youtubeID"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        // This will display the artist name
+        <TextView
+            android:id="@+id/artistTextView"
+            android:textSize="8dp"
+            android:padding="4dp"
+            android:text="artist"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+</LinearLayout>
